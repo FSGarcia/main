@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <nav>
+      <ul>
+	<li><a href="/index.html">Home</a></li>
+	<li class="active"><a href="/pages/resume.html">Resumé</a></li>
+	<li><a href="/pages/photos.html">Photos</a></li>
+	<li><a href="/pages/rant.html">Rant</a></li>
+	<li><a href="/pages/contact.html">Contact</a></li>
+      </ul> 
+    </nav>
+    
+    <title>Fernando's Website - Resumé</title>
+  </head>
+  <body>
+    <section>
+      <aside>
+	<div class="main">
+	  <h1>Resumé</h1>
+	  <h3><em>My School and Work Experience</em></h3>
+	</div>
+      </aside>
+      <hr>
+      <article>
+	<div class="resume">
+	  <h2><u>Fernando S. Garcia</u></h2>
+	  68 West Avenue<br>
+	  Stamford, CT 06902<br>
+	  (203) 424-7119<br>
+	  fdo.s.garcia@gmail.com<br>
+	  <hr>
+	  <h3>Education</h3>
+	  <p>2018: Bachelor of Science, Computer Science – Brigham Young University</p>
+	  <ul>
+	    <li>Minor in Mathematics</li>
+	    <li>GPA 3.5, Dean's List</li>
+	  </ul>
+
+	  <h3>Projects</h3>
+	  Personal Website<br>
+	  Race Entry Website<br>
+
+	  <h3>Work Experience</h3>
+	  <p><b>2015: Computer Programmer - Race Entry</b></p>
+	  <ul>
+	    <li>Solved various issues on the company's website using logical and mathematical reasoning</li>
+	    <li>Involved in developing a software tool dedicated to searching information on competitors' websites</li>
+	  </ul>
+
+	  <p><b>2013-2015: Special Events Usher - Brigham Young University</b></p>
+	    <ul>
+	      <li>Provided excellent customer service during major sports games by scanning tickets and directing people to their seats</li>
+	      <li>Ensured safety to audiences by working with security in providing crowd control</li>
+	    </ul>
+
+	  <p><b>2009-2011: Volunteer Missionary – The Church of Jesus Christ of Latter-day Saints</b></p>
+	  <ul>
+	    <li>Led a group of 8-10 missionaries; provided weekly religious instruction on self-improvement and discipline</li>
+	    <li>Instructed individuals how to search large databases and millions of microfilms to learn their ancestry</li>
+	    <li>Gained proficiency in using office equipment, such as microfilm readers by instructing clients</li>
+	    <li>Maintained order and kept a clean work environment while dealing with hundreds of books and microfilms daily</li>
+	    <li>Trained newly-arrived missionaries in policies, procedures, and activities specific to their assignment</li>
+	  </ul>
+	  
+	  <p><b>2005-2009: Commercial and Residential Cleaner – A&N Cleaning Services</b></p>
+	  <ul>
+	    <li>Performed physically demanding tasks such as washing windows, cleaning out gutters, and handling heavy equipment</li>
+	    <li>Formed loyal partnerships with customers and fixed problems that arose</li>
+	  </ul>
+	  
+	  <h3>Skills and Interests</h3>
+	  <ul>
+	    <li>Speaking fluently in English and Spanish</li>
+	    <li>Working on mathematical and logical problems</li>
+	    <li>Utilizing Microsoft Word, Excel, and PowerPoint</li>
+	    <li>Studying history, geography, government, society, and religion</li>
+	    <li>Maintaining a healthy, physically active life</li>
+	    <li>Singing in choirs and playing harmonica and guitar</li>
+	  </ul>
+	</div>
+      </article>
+    </section>
+    <hr>
+    <a href="https://github.com/BYU-CS260-Winter-2018/lab1">GitHub Repository</a>
+  </body>
+</html>

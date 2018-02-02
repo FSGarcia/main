@@ -1,0 +1,149 @@
+body {
+    background-color: #CCDDFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003;
+    font-size: 30px;
+    font-family: helvetica;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #AF4C50;
+}
+
+nav .active {
+    background-color: #AF4C50;
+}
+
+
+.main h1 {
+    font-size: 32px;
+}
+
+
+.main h2 {
+    text-align: center;
+}
+
+.main h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main {
+    margin: auto;
+    /*width: 80%;*/
+    text-align: center;
+    /*border: 3px solid #73AD21;*/
+    padding: 8px;
+    /* background-color: red; */
+}
+
+
+.main img {
+    align: center;
+    
+}
+
+.resume {
+    font-size: 18px;
+}
+
+.resume h2 {
+    font-size: 30px;
+}
+
+.resume h3 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.quote {
+    font-style: italic;
+    border: 1px solid #BBCCEE;
+    border-radius: 3px;
+    margin-left: 100px;
+    color: #333333;
+}
+
+.photos {
+    margin: auto;
+    /*width: 80%;*/
+    text-align: center;
+    vertical-align: center;
+    /*border: 3px solid #73AD21;*/
+    padding: 8px;
+    /* background-color: red; */
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    /*background-color: #333333;*/
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1270px) {
+    .wrapper {
+	grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1910px) {
+    .wrapper {
+	grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .wrapper {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.wrapper img {
+    border: 2px solid black;
+}
+
+.letter {
+
+    
+    /*background-color: #;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 70px;
+    color: white;
+    line-height: 1;
+    font-family: 'hobeaux-rococeaux-background', Helvetica;
+}

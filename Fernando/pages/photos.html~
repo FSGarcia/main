@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <nav>
+      <ul>
+	<li><a href="/index.html">Home</a></li>
+	<li><a href="/pages/resume.html">Resumé</a></li>
+	<li class="active"><a href="/pages/photos.html">Photos</a></li>
+	<li><a href="/pages/rant.html">Rant</a></li>
+	<li><a href="/pages/contact.html">Contact</a></li>
+      </ul> 
+    </nav>
+    
+    <title>Fernando's Website - Photos</title>
+  </head>
+  <body>
+    <section>
+      <aside>
+	<div class="main">
+	  <h1>Photos</h1>
+	  <h3><em>Pictures of Me Throughout My Life</em></h3>
+	</div>
+      </aside>
+      <hr>
+      <article>
+	<div class="photos">
+	  <div class="wrapper">
+	    <div class="letter">
+	      <img src="photo1.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo2.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo3.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo4.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo5.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo6.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo7.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo8.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo9.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo10.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo11.jpg" />
+	    </div>
+	    <div class="letter">
+	      <img src="photo12.jpg" />
+	    </div>
+	  </div>
+	</div>
+      </article>
+    </section>
+    <hr>
+    <a href="https://github.com/BYU-CS260-Winter-2018/lab1">GitHub Repository</a>
+  </body>
+</html>
